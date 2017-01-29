@@ -25,7 +25,6 @@ def rental_car_cost(days):
 def trip_cost(city, days, stuff):
     return rental_car_cost(days) + plane_cost(city) + hotel_cost(days) + stuff
 
-cost_night=input("How many nights are you going to travel? ")
 
 print("Total vacation cost:")
 print(trip_cost("New York", 20, 600))

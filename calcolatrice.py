@@ -75,7 +75,7 @@ def pow(a,b):
     print(f"Il risultato di {Decimal(a)} elevato a {Decimal(b)} è: {x}")
 
 def square():
-    print("Hai scelto Elevamento a potenza\n")
+    print("Hai scelto Radice quadrata\n")
     a = float(input("Inserisci il numero: "))
     sqr(a)
 

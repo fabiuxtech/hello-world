@@ -32,7 +32,7 @@ def addition():
 
 def add(a,b):
     x = Decimal(a) + Decimal(b)
-    print(f"Il risultato di {Decimal(a)} + {Decimal(b)} è: {x:.3n}")
+    print(f"Il risultato di {a} + {b} è: {x:.3n}")
 
 def subtraction():
     print("Hai scelto Sottrazione\n")
@@ -42,7 +42,7 @@ def subtraction():
 
 def sub(a,b):
     x = Decimal(a) - Decimal(b)
-    print(f"Il risultato di {Decimal(a)} - {Decimal(b)} è: {x:.3n}")
+    print(f"Il risultato di {a} - {b} è: {x:.3n}")
 
 def multiplication():
     print("Hai scelto Moltiplicazione\n")
@@ -52,7 +52,7 @@ def multiplication():
 
 def mult(a,b):
     x = Decimal(a) * Decimal(b)
-    print(f"Il risultato di {Decimal(a)} * {Decimal(b)} è: {x:.3n}")
+    print(f"Il risultato di {a} * {b} è: {x:.3n}")
 
 def division():
     print("Hai scelto Divisione\n")
@@ -62,7 +62,7 @@ def division():
 
 def div(a,b):
     x = Decimal(a) / Decimal(b)
-    print(f"Il risultato di {Decimal(a)} diviso {Decimal(b)} è: {x:.3n}")
+    print(f"Il risultato di {a} diviso {b} è: {x:.3n}")
 
 def power():
     print("Hai scelto Elevamento a potenza\n")
@@ -72,7 +72,7 @@ def power():
 
 def pow(a,b):
     x = a ** b
-    print(f"Il risultato di {Decimal(a)} elevato a {Decimal(b)} è: {x}")
+    print(f"Il risultato di {a} elevato a {b} è: {x}")
 
 def square():
     print("Hai scelto Radice quadrata\n")

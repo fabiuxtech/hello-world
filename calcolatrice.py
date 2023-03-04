@@ -2,7 +2,6 @@ from decimal import Decimal
 from math import sqrt
 import os
 
-
 def welcome():
     print("\n\n### Benvenuto nella Calcolatrice by Fabiux v1.0###\n")
 menu_text = """

@@ -14,7 +14,6 @@ Quale operazione vuoi eseguire? Puoi scegliere tra le seguenti:
         6. Radice quadrata
         7. Uscire
 """
-
 def keepgoing():
     yesorno = input(f"\nVuoi continuare? S/N: ")
     if yesorno == "s" or yesorno == "S":

@@ -1,6 +1,18 @@
 # print ("Hello World")
-age = 34
-name = 'Fabio'
-city = 'Bari'
-print(f'My name is {name} and i am {age} years old and I was born in {city}')
-print('What\'s your name?')
+from random import randrange
+magic_number = randrange(1,11)
+print(magic_number)
+guess = ''
+while guess != magic_number:
+    guess = int(input('Try to guess the number ...\nInsert the number here: '))
+    if guess < magic_number:
+        print('Nope, number is higher')
+        continue
+    elif guess > magic_number:
+        print('Nope, number is lower')
+        continue
+    elif guess == magic_number:
+        print("Correct! You won a piece of cake!")
+        break
+    else:
+        print('Invalid number or character')

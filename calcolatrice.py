@@ -1,9 +1,9 @@
 from decimal import Decimal
 from math import sqrt
-import os
+#import os
 
 def welcome():
-    print("\n\n### Benvenuto nella Calcolatrice by Fabiux v1.0###\n")
+    print("\n\n### Benvenuto nella Calcolatrice by Fabiux v1.0 ###\n")
 menu_text = """
 Quale operazione vuoi eseguire? Puoi scegliere tra le seguenti:
         1. Addizione
